@@ -12,7 +12,7 @@ str(raw_data)
 
 colnames(raw_data)
 
-#check the data inside the dataset for cleaning
+#check the quality of data inside the dataset
 
 print(colSums(is.na(raw_data)))
 
